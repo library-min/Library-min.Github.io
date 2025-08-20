@@ -1,20 +1,27 @@
 ---
-title: "Teaching experience 2"
+title: "데이터베이스 설계 및 관리 워크샵"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+venue: "유원대학교, 컴퓨터과학과"
 date: 2015-01-01
-location: "City, Country"
+location: "대한민국, 대전"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+대학원생과 연구진을 대상으로 한 데이터베이스 심화 과정 워크샵입니다.
 
-Heading 1
+워크샵 주제
 ======
+- 고급 SQL 쿼리 최적화 기법
+- 데이터베이스 인덱스 설계 및 튜닝
+- NoSQL 데이터베이스 (MongoDB, Cassandra) 활용
 
-Heading 2
+실습 내용
 ======
+- 대용량 데이터 처리 예제
+- 성능 병목 찾기와 해결 방법
+- 데이터 복제와 샤딩 전략
 
-Heading 3
+성과
 ======
+참가자들이 실무에서 직면할 수 있는 데이터베이스 문제들에 대한 실질적인 해결 능력을 향상시켰습니다.
