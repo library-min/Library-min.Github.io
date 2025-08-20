@@ -1,68 +1,125 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "서재민",
+    "email": "library_mini@outlook.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://library-min.github.io",
+    "summary": "현재 유원대학교에 소속되어 있습니다. 반갑습니다 !",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "대한민국",
       "countryCode": "US",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "library-min",
+        "url": "https://github.com/library-min"
+      },
+      {
+        "network": "Notion",
+        "username": "Library_Min",
+        "url": "https://www.notion.so/Library_Min-s-Library-1d4ebef145e3808cb050f5a72dbafbe1"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "유원대학교",
+      "position": "연구원",
+      "website": "https://uwcollege.ac.kr",
+      "startDate": "2023-03-01",
+      "endDate": "현재",
+      "summary": "컴퓨터과학 및 소프트웨어 개발 분야 연구 참여",
+      "highlights": [
+        "웹 애플리케이션 개발 프로젝트 참여",
+        "데이터베이스 설계 및 관리",
+        "연구 논문 작성 및 발표"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "유원대학교",
+      "area": "컴퓨터과학과",
+      "studyType": "학사",
+      "startDate": "2020-03-01",
+      "endDate": "2024-02-29",
+      "gpa": null,
+      "courses": [
+        "웹 개발",
+        "데이터베이스",
+        "소프트웨어 공학",
+        "알고리즘"
+      ]
+    },
+    {
+      "institution": "유원대학교",
+      "area": "컴퓨터과학과",
+      "studyType": "대학원",
+      "startDate": "2024-03-01",
+      "endDate": "현재",
+      "gpa": null,
+      "courses": [
+        "인공지능",
+        "기계학습",
+        "데이터 마이닝",
+        "고급 소프트웨어 공학"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "프로그래밍 언어",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "웹 개발",
+      "level": "Advanced",
+      "keywords": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "한국어",
+      "fluency": "모국어"
+    },
+    {
+      "language": "영어",
+      "fluency": "중급"
+    }
+  ],
+  "interests": [
+    {
+      "name": "소프트웨어 개발",
+      "keywords": [
+        "웹 개발",
+        "모바일 앱",
+        "오픈소스"
+      ]
+    },
+    {
+      "name": "데이터 사이언스",
+      "keywords": [
+        "기계학습",
+        "데이터 분석",
+        "시각화"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {

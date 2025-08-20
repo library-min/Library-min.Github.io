@@ -1,18 +1,9 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+서재민:
+  name        : "서재민"
+  uri         : "https://www.notion.so/Library_Min-s-Library-1d4ebef145e3808cb050f5a72dbafbe1"
+  email       : "library_mini@outlook.com"
+  bio         : "유원대학교 컴퓨터과학과 대학원생. 소프트웨어 개발과 데이터 사이언스에 관심이 많습니다."
+  avatar      : "서재민.jpg"
+  github      : "library-min"

@@ -1,96 +1,118 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 🎓 서재민 포트폴리오
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+## 📸 스크린샷
 
-# Getting Started
+<div align="center">
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+**메인 화면 (라이트 모드)**
 
-See more info at https://academicpages.github.io/
+<img src="" alt="프로필 사진" width="200">
 
-## Running locally
+**포트폴리오 웹사이트**
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+이 웹사이트는 Jekyll과 GitHub Pages를 활용하여 구축된 개인 포트폴리오입니다.
 
-1. Clone the repository and made updates as detailed above.
+</div>
 
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
+## ✨ 주요 기능
 
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+### 👤 **개인 포트폴리오 시스템**
+- **개인 정보**: 이름, 소속, 연락처 등 기본 정보 표시
+- **프로필 사진**: 고해상도 프로필 이미지 지원
+- **자기소개**: 학습 분야, 관심사, 목표 등 상세 소개
+- **연락처 정보**: 이메일, GitHub 링크 등 연락 방법 제공
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
+### 📋 **이력서 (CV) 시스템**
+- **학력 정보**: 재학 중인 대학교 및 전공 정보
+- **기술 및 역량**: 프로그래밍, 자동차공학, 데이터분석 등 보유 기술
+- **프로젝트 경험**: 웹 개발, 미래자동차 연구 등 진행한 프로젝트
+- **활동 및 경험**: 스터디 그룹, 세미나 참석 등 추가 활동
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+### 🏷️ **논문/발표 관리 시스템**
+- **연구 프로젝트**: 미래자동차학과 관련 프로젝트 소개
+- **프로그래밍 학습**: 웹 개발, 데이터 분석 등 학습 내용
+- **발표 내역**: 기술 동향 발표, 워크샵 참여 등 발표 경험
+- **카테고리 분류**: 학술 논문, 컨퍼런스 발표 등 체계적 분류
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+### 📝 **블로그 시스템**
+- **학습 후기**: 대학 생활 및 전공 수업 경험 공유
+- **프로그래밍 여정**: 개발 학습 과정과 성장 스토리
+- **프로젝트 계획**: 방학 프로젝트 및 향후 학습 계획
+- **날짜별 정리**: 시간순으로 정리된 블로그 포스트
 
-## Using Docker
+### 🔍 **네비게이션 시스템**
+- **메뉴 구성**: 소개, 프로젝트, 블로그, 이력서, 논문/발표 5개 섹션
+- **반응형 메뉴**: 모든 화면 크기에서 접근 가능한 메뉴
+- **직관적 구조**: 햄버거 메뉴 없이 바로 접근 가능
+- **빠른 탐색**: 원하는 정보에 빠르게 접근 가능한 구조
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+### 🎨 **테마 & 디자인 시스템**
+- **다크/라이트 모드**: 사용자 선호에 따른 테마 선택
+- **이력서 최적화**: 전문적이고 깔끔한 이력서 스타일
+- **완전 반응형**: 모바일부터 대형 모니터까지 최적화
+- **인쇄 지원**: Ctrl+P로 깔끔한 이력서 인쇄 가능
 
-You can build and execute the container by running the following command in the repository:
+## 🏗️ 기술 스택
 
-```bash
-chmod -R 777 .
-docker compose up
+<div align="center">
+
+### 🔧 **Core Technologies**
+
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.0-red?style=for-the-badge&logo=jekyll)](https://jekyllrb.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deploy-black?style=for-the-badge&logo=github)](https://pages.github.com/)
+[![Markdown](https://img.shields.io/badge/Markdown-Content-blue?style=for-the-badge&logo=markdown)](https://daringfireball.net/projects/markdown/)
+
+### 🎨 **UI & Styling**
+
+[![SCSS](https://img.shields.io/badge/SCSS-CSS_Preprocessor-pink?style=for-the-badge&logo=sass)](https://sass-lang.com/)
+[![CSS3](https://img.shields.io/badge/CSS3-Modern-1572b6?style=for-the-badge&logo=css3)](https://www.w3.org/Style/CSS/)
+[![Responsive](https://img.shields.io/badge/Responsive_Design-Mobile_First-green?style=for-the-badge)](https://www.w3.org/Style/CSS/)
+
+</div>
+
+## 📁 프로젝트 구조
+
+```
+├── _config.yml                 # Jekyll 설정 파일
+├── _data/                      # 데이터 파일
+│   ├── authors.yml            # 작성자 정보
+│   └── navigation.yml         # 네비게이션 메뉴
+├── _pages/                     # 페이지 파일
+│   ├── about.md              # 소개 페이지 (홈)
+│   └── cv.md                 # 이력서 페이지
+├── _posts/                     # 블로그 포스트
+├── _publications/              # 논문/프로젝트
+├── _talks/                     # 발표/강연
+├── assets/css/                 # 스타일시트
+│   └── main.scss             # 메인 스타일 파일
+├── images/                     # 이미지 파일
+│   └── profile.jpg           # 프로필 사진
+└── README.md                  # 프로젝트 설명서
 ```
 
-You should now be able to access the website from `localhost:4000`.
+## 🚀 로컬 개발 환경
 
-### Using the DevContainer in VS Code
+```bash
+# 저장소 클론
+git clone https://github.com/library-min/library-min.github.io.git
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+# Jekyll 설치 및 실행
+bundle install
+bundle exec jekyll serve
 
-# Maintenance
+# 브라우저에서 확인: http://localhost:4000
+```
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+## 📧 연락처
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+- **이메일**: library_mini@outlook.com
+- **GitHub**: [@library-min](https://github.com/library-min)
+- **대학**: 유원대학교 미래자동차학과
 
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
----
 <div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+**Made with ❤️ by [서재민](https://github.com/library-min)**
+
+*"미래자동차학과 학생에서 기술 융합 전문가로"*
+
 </div>
